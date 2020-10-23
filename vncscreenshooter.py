@@ -16,7 +16,7 @@ def test_ip(args):
                 client.refreshScreen()
                 screenshot_file = os.path.join(args.screendir, args.ip + '.png')
                 client.captureScreen(screenshot_file)
-                print(f"VNC without Password; Screenshot Captured: {screenshot_file}")
+                print(f"Successfully captured screenshot: {screenshot_file}")
             except Exception as e:
                 print(e)
             client.disconnect()
