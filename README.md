@@ -1,7 +1,10 @@
 # vncscreenshooter
 
+This scripts utilizes the Python module vncdotool to create a screenshot of a VNC server.
 
-# Setup
+By default, no password will be used. If required, you can set a password via the --password paramter.
+
+## Setup
 
 ```
 $ python3 -m venv venv
@@ -9,7 +12,7 @@ $ ./venv/bin/python -m pip install vncdotool
 $ mkdir screenshots
 ```
 
-# Usage
+## Usage
 
 ```
 $ ./venv/bin/python vncscreenshooter.py -h
@@ -26,7 +29,7 @@ optional arguments:
 $ ./venv/bin/python vncscreenshooter.py --ip 192.168.0.1 --screendir screenshots/
 ```
 
-# Scan multiple hosts
+## Scan multiple hosts
 
 Create a new file which contains one IP address per line. Now run the script like this:
 
