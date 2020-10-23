@@ -1,6 +1,6 @@
 # vncscreenshooter
 
-This scripts utilizes the Python module vncdotool to create a screenshot of a VNC server.
+This scripts utilizes the Python module vncdotool to create a PNG screenshot of a VNC server.
 
 By default, no password will be used. If required, you can set a password via the --password paramter.
 
